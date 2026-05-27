@@ -2,19 +2,21 @@
 
 An end-to-end **Machine Learning + NLP web application** that analyzes YouTube comments to classify **sentiment (Positive, Negative, Neutral)** and detect **toxic content in real-time**.
 
-🔗 **Live Demo:** https://apex-yt-comment-sentiment-analyser.vercel.app/
+🔗 **Live Demo:** https://apex-yt-comment-sentiment-analyser-three.vercel.app/
+
+🔗 **GitHub Repository:** https://github.com/Rohit-code-77/APEX-YT-COMMENT-SENTIMENT-ANALYSER.git
 
 ---
 
 # 📌 Overview
 
-With the massive growth of user-generated content on YouTube, analyzing comments manually is inefficient.
+With the massive growth of user-generated content on YouTube, manually analyzing comments is inefficient.
 
-This project provides an automated solution using **Machine Learning + Natural Language Processing** to:
+This project provides an automated solution using **Machine Learning + NLP** to:
 
 - 📊 Understand audience sentiment
 - ⚠️ Detect harmful/toxic comments
-- 📈 Provide actionable insights through an analytics dashboard
+- 📈 Generate actionable insights through an analytics dashboard
 
 ---
 
@@ -24,7 +26,7 @@ This project provides an automated solution using **Machine Learning + Natural L
 
 ✅ **Toxicity Detection** *(Toxic / Non-Toxic)*
 
-✅ **Interactive Analytics Dashboard**
+✅ **Interactive Dashboard**
 
 - Pie Charts *(Sentiment Distribution)*
 - Bar Graphs *(Category Counts)*
@@ -35,6 +37,8 @@ This project provides an automated solution using **Machine Learning + Natural L
 - Analyze **1000+ comments within seconds**
 
 ✅ **Responsive Web Application**
+
+✅ **CSV Upload + Manual Input Support**
 
 ---
 
@@ -142,20 +146,20 @@ Analytics Dashboard
 
 # 🚀 Installation & Setup
 
-## 1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/yt-comment-sentiment-analyzer.git
-cd yt-comment-sentiment-analyzer
+git clone https://github.com/Rohit-code-77/APEX-YT-COMMENT-SENTIMENT-ANALYSER.git
+cd APEX-YT-COMMENT-SENTIMENT-ANALYSER
 ```
 
-## 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
 
-## 3️⃣ Configure Environment Variables
+### 3️⃣ Configure Environment Variables
 
 Create a `.env.local` file:
 
@@ -163,7 +167,7 @@ Create a `.env.local` file:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-## 4️⃣ Run Development Server
+### 4️⃣ Run Development Server
 
 ```bash
 npm run dev
